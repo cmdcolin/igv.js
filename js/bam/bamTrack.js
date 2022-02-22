@@ -193,6 +193,7 @@ class BAMTrack extends TrackBase {
             this.alignmentTrack.setTop(this.coverageTrack, this.showCoverage)
             this.alignmentTrack.draw(options)
         }
+	console.log("DONE")
     }
 
     paintAxis(ctx, pixelWidth, pixelHeight) {
